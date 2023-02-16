@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Amiri+Quran&family=Merriweather:ital,wght@1,900&family=Oswald:wght@200;500;700&display=swap");
+
+*,
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#main {
+  margin: 0%;
+}
+
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: "Merriweather", serif;
+  color: #666666;
+  padding: 0;
+}
+.topspace {
+  margin-top: 40px;
+  justify-content: center;
+}
+
+nav {
+  background-color: #6e0c14;
+  list-style-type: none;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.nav-link {
+  color: white;
+}
+
+/*********************************************************************
+
+
+                                HEADER
+
+
+**********************************************************************/
+
+#head {
+  background: rgba(0, 0, 0, 0.6) url(../images/eas.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: #f7f4f4;
+}
+#head img.img-circle {
+  display: block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#head .title {
+  font-family: "Merriweather", serif;
+  /* font-family: Alice, Georgia, serif; */
+  font-size: 49px;
+  font-size: 3.0625rem;
+}
+
+#head .tagline {
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.2em;
+  color: #ffffff;
+  margin: 5px 0 0;
+}
+
+#head .tagline a {
+  color: #5e5e5e;
+}
+.home #head {
+  padding: 90px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.btn:a {
+  text-decoration: none;
+  border-radius: 10px;
+  transition-delay: 0.2s;
+}
+
+/*********************************************************************
+
+
+                                SECTION TITLE
+
+
+**********************************************************************/
+
+.section-title,
+.entry-title {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px 0 25px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+}
+.section-title a,
+.entry-title a {
+  color: #333333;
+}
+.section-title span,
+.entry-title span {
+  display: inline-block;
+  position: relative;
+}
+.section-title span:before,
+.entry-title span:before,
+.section-title span:after,
+.entry-title span:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: 0.53em;
+  width: 400%;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.section-title span:before,
+.entry-title span:before {
+  right: 100%;
+  margin-right: 45px;
+}
+.section-title span:after,
+.entry-title span:after {
+  left: 100%;
+  margin-left: 45px;
+}
+
+/*********************************************************************
+
+
+                                FOOTER
+
+
+**********************************************************************/
+#footer {
+  background: #6e0c14;
+  padding: 30px 0 0 0;
+  font-size: 12px;
+  color: #999;
+}
+#footer a {
+  color: #ccc;
+}
+#footer a:hover {
+  color: rgb(51, 37, 37);
+}
+#footer h3.widget-title {
+  font-family: "Abyssinica SIL", serif;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  color: rgb(255, 250, 250);
+  margin: 0 0 20px;
+}
+
+#underfooter a {
+  color: #0e0606;
+}
+#underfooter a:hover {
+  color: #6e0c14;
+}
+#underfooter p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+.follow-me-icons {
+  font-size: 30px;
+}
+.follow-me-icons i {
+  float: left;
+  margin: 0 10px 0 0;
+}
+.rows {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
